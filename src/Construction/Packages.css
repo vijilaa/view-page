@@ -1,0 +1,46 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.price {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.accordion {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 8px 0;
+  font-weight: 600;
+}
+
+.accordion-body {
+  padding-left: 16px;
+  font-size: 14px;
+}
+
+.cta {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  background: #f2c94c;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
