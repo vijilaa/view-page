@@ -238,6 +238,7 @@ const packages = [
     name: "PREMIUM PACKAGE",
     price: "₹2549 / sqft",
     data: {
+      
       Design: [
 "SCHEME DRAWING: ALL FLOORS (2D)",
 "ELEVATION DESIGN (3D)",
