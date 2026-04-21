@@ -170,3 +170,22 @@ body {
     .main-logo { width: 180px; }
     .services-title { font-size: 2.2rem; }
 }
+.header h3 {
+  margin: 0;
+  font-family: 'Oswald', sans-serif; /* Professional architectural font */
+  font-size: 1.9rem;                /* Slightly larger for impact */
+  font-weight: 700;                 /* Bold and strong */
+  letter-spacing: 3px;              /* Professional wide spacing */
+  text-transform: uppercase;
+  color: #000;                      /* Kept original color */
+  line-height: 1.2;
+}
+
+/* Optional: Gives the gold box a bit more height to let the professional text breathe */
+.header {
+  padding: 45px 15px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 110px;
+}

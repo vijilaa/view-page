@@ -20,7 +20,6 @@ const SECTION_ORDER = [
 const packages = [
     {
       name: "BASIC PACKAGE",
-      price: "₹1999 / sqft",
       data: {
         Design: [
           "<b>Scheme Drawing:</b> All Floors (2D)",
@@ -107,7 +106,6 @@ const packages = [
     },
     {
       name: "STANDARD PACKAGE",
-      price: "₹2299 / sqft",
       data: {
         Design: [
           "<b>Scheme Drawing:</b> All Floors (2D)",
@@ -196,7 +194,6 @@ const packages = [
     },
     {
       name: "PREMIUM PACKAGE",
-      price: "₹2549 / sqft",
       data: {
         Design: [
           "<b>Scheme Drawing:</b> All Floors (2D)",
@@ -292,7 +289,6 @@ const packages = [
     },
     {
       name: "ULTRA LUXURY",
-      price: "₹2999 / sqft",
       data: {
         Design: [
           "<b>Scheme Drawing:</b> All Floors (2D)",
@@ -408,8 +404,7 @@ function PackageCard({ pkg }) {
   return (
     <div className="card">
       <div className="header">
-        <h4>{pkg.name}</h4>
-        <h2>{pkg.price}</h2>
+        <h3>{pkg.name}</h3>
       </div>
       <div className="accordion-group">
         {SECTION_ORDER.map((section) => (
